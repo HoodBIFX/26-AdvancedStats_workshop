@@ -6,13 +6,18 @@ author: Dr Randy Johnson
 format:
   html:
     output-file: index.html
+    filters:
+      - pyodide
   revealjs:
     output-file: slides.html
     slide-level: 4
+    filters:
+      - pyodide
+    css: slides.css # change size and position here
+    logo: "img/website.png"
+    footer: "Follow along here: https://hoodbifx.github.io/26-AdvancedStats_workshop/"
   gfm:
     output-file: README.md
-filters:
-  - pyodide
 ---
 
 ## Workshop Overview
@@ -304,3 +309,7 @@ plt.hist(samples, bins=50, density=True, alpha=0.6, color='b')
 plt.title("MCMC Approximation of the Target Distribution")
 plt.show()
 ```
+
+:::{.content-visible when-format="gfm"}
+(output only availabe on live html/revealjs pages)
+:::

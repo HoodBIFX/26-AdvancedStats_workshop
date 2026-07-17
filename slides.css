@@ -1,0 +1,12 @@
+.reveal .slide-logo {
+  position: absolute; /* Ensures absolute positioning within the slide */
+  bottom: 20px !important; /* Distance from the bottom edge */
+  right: 20px !important; /* Distance from the right edge */
+  left: unset !important; /* Overrides default 'left' positioning */
+  top: unset !important; /* Overrides default 'top' positioning */
+  height: 100px !important; /* Adjust logo height as needed */
+  width: auto !important; /* Maintain aspect ratio */
+  max-width: unset !important; /* Ensure it's not constrained by default max-width */
+  max-height: unset !important; /* Ensure it's not constrained by default max-height */
+  z-index: 10; /* Ensures it appears above other slide content */
+}
