@@ -23,32 +23,32 @@ A Venn diagram can be a useful tool when thinking about probabilities.
 Let’s say that we have two events, `A` and `B`, with a circle
 representing each event.
 
-![](img/Slide1.png)
+![](img/Slide1.PNG)
 
 We can visualize the probabilitis of `A` and `B` as the area of each
 circle in this Venn diagram, so the probability of observing event, `A`
 is
 
-![](img/Slide2.png)
+![](img/Slide2.PNG)
 
 and the probability of observing event `B` is
 
-![](img/Slide3.png)
+![](img/Slide3.PNG)
 
 The probability of observing `A` or `B` is called the union
 
-![](img/Slide4.png)
+![](img/Slide4.PNG)
 
 and the probability of observing both `A` and `B` is called the
 intersection.
 
-![](img/Slide5.png)
+![](img/Slide5.PNG)
 
 We can also visualize conditional probability. The probability of
 observing event `A` given the fact that we know event `B` has already
 happened is
 
-![](img/Slide6.png)
+![](img/Slide6.PNG)
 
 ### Bayes Rule
 
@@ -72,20 +72,20 @@ opportunity to win a car.
 - The contestant the has to decide to stick with their original choice
   or switch their chioce to the third door.
 
-![](img/Slide7.png)
+![](img/Slide7.PNG)
 
 What is the “right” choice?
 
-![](img/Slide8.png)
+![](img/Slide8.PNG)
 
 Let’s change the sequence of events. Which is the right choice now?
 
-![](img/Slide9.png)
+![](img/Slide9.PNG)
 
 There is nothing special about Monty Hall’s reveal that changes the
 probabilities.
 
-![](img/Slide10.png)
+![](img/Slide10.PNG)
 
 ### Back to Bayes
 
@@ -99,11 +99,11 @@ P(\mbox{Car}) = \frac{1}{3} \forall \mbox(Doors)
 $$
 -->
 
-![](img/Slide11.png)
+![](img/Slide11.PNG)
 
 Then Monty Hall reveals that there is a goat behind door 3.
 
-![](img/Slide12.png)
+![](img/Slide12.PNG)
 
 #### Posterior Probability
 
